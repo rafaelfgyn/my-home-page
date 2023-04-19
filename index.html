@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+</head>
+
+<body>
+  <div class="bookmarks"></div>
+</body>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+  }
+
+  .bookmarks {
+    display: flex;
+    border: 1px solid white;
+    width: 80%;
+    height: 800px;
+  }
+</style>
+
+<script>
+  // Replace the current URL with an empty URL
+  window.history.replaceState(null, null, '/');
+</script>
+
+</html>

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "My home page",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
